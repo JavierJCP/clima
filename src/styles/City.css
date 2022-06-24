@@ -1,0 +1,29 @@
+.contenedor-formulario{
+  margin: 20px 0;
+}
+
+.input-city{
+  margin: 0.5em;
+  padding: 3px;
+  font-size: 1.2em;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 9px 9px 33px -5px rgba(0, 0, 0, 0.447);
+}
+.btn-city{
+  font-size: 1.2em;
+  padding: 4px 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(67, 130, 255, 0.881);
+  color: white;
+  font-weight: bold;
+  box-shadow: 9px 9px 33px -5px rgba(0, 0, 0, 0.447);
+}
+
+@media (max-width: 700px) {
+  .formulario{
+    display: flex;
+    flex-direction: column;
+  }
+}
