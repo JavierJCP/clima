@@ -14,7 +14,7 @@ const Weather = () => {
 
   async function loadInfo(city= "cusco") {
     const res = await fetch(
-      `http://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_KEY}&q=${city}&aqi=no`
+      `https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_KEY}&q=${city}&aqi=no`
     );
     const data = await res.json();
     setWeather({ ...data });
